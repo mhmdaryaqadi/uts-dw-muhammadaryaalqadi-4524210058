@@ -89,3 +89,11 @@ input[type="range"] {
 meter {
     width: 100px;
 }
+
+@media (min-width: 800px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr; 
+        gap: 2rem;
+    }
+}
